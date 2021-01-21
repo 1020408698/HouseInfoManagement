@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+.mainframe {
+	width: 100%;
+	height: 100%;
+	background-color: #24639D;
+	color: #EDEFF0;
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+}
+
+.title {
+	width: 100%;
+	height: 52px;
+	margin: 0 auto;
+	line-height: 52px;
+	font-family: 寰蒋闆呴粦, Tohoma;
+	font-size: 14px;
+	color: #2b9de6;
+	/*border-color: #1f70bb;*/
+	border-bottom: 2px solid #1f70bb;
+}
+
+.title:hover {
+	color: #70CCFF;
+}
+
+.message {
+	width: 858px;
+	height: 35px;
+	
+	line-height: 35px;
+	color: #eee;
+	border-bottom: 2px solid #1f70bb;
+	font-family: 寰蒋闆呴粦, Tohoma;
+}
+
+.info {
+	width: 858px;
+	height: 140px;
+	color: #EDEFF0;
+	
+	line-height: 40px;
+	border-bottom: 2px solid #1f70bb;
+	font-size: 12px;
+}
+
+.subbtn {
+	width: 72px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	border-radius: 2px;
+	background-color: #46B2EF;
+	color: #FFFFFF;
+	border: 1px solid #3686B3;
+	cursor: pointer;
+}
+
+.subbtn:hover {
+	background-color: #1a88cf;
+}
+
+.numofmessage {
+	width: 100%;
+	height: 20px;
+	color: #EDEFF0;
+	
+	line-height: 20px;
+	border-bottom: 2px solid #1f70bb;
+	font-family: 寰蒋闆呴粦, Tohoma;
+}
+
+.msgFrame {
+	width: 100%;
+	height: 331px;
+	margin: 0 auto;
+}
+
+.content_1 {
+	width: 858px;
+	height: 190px;
+	color: #EDEFF0;
+	margin: 0 auto;
+	border-bottom: 2px solid #1f70bb;
+}
+
+.name {
+	width: 50px;
+	height: 50px;
+	margin: 20px 20px;
+	border-radius: 5px;
+}
+
+a {
+	color: #70CCFF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.mainInfo {
+	width: 766px;
+	height: 143px;
+	float: right;
+	margin-top: 20px;
+}
+
+.userId {
+	width: 100%;
+	height: 20px;
+	font-size: 14px;
+}
+
+.conInfo {
+	width: 100%;
+	height: 100px;
+	margin-top: 12px;
+	font-size: 12px;
+}
+
+.time {
+	width: 100%;
+	height: 20px;
+	font-size: 12px;
+	margin-bottom: 20px;
+	color: #8AB8E3;
+}
+
+.con{
+    width: 100%;
+	height: 100px;
+	word-break: break-all;
+	
+	border: 2px solid #1f70bb;
+	border-top: 0px;
+	background-color: #e2e2e2;
+	color: black;
+	text-indent: 2px;
+	font-size: 14px;
+}
+.con:empty:before{ 
+    content: 'lets talking something.'; 
+    color: gray; 
+} 
+.con:focus:before{
+    content:none;
+}
